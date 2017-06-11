@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wuziqi.example.asus_pc.wuziqi.MainActivity">
+    <TextView
+        android:id="@+id/txt_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:text="步数:0"/>
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="时间:0"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:layout_centerInParent="true"/>
+    <wuziqi.example.asus_pc.wuziqi.wuziqi
+        android:layout_centerInParent="true"
+        android:id="@+id/wuziqi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
